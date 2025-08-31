@@ -1,7 +1,3 @@
-![1000436765](https://github.com/user-attachments/assets/95385a34-acb8-442f-a887-60c247de6984)
-![1000436763](https://github.com/user-attachments/assets/9fadac8c-933f-4345-ab71-07806000238d)
-![1000436766](https://github.com/user-attachments/assets/63351404-8096-4d12-b23b-9698ecd0e338)
-![1000436764](https://github.com/user-attachments/assets/74a729ed-943d-414f-828b-89b5eb97905c)
 Smart Daily Expense Tracker
 
 A full-featured Android app built with Kotlin, Jetpack Compose, MVVM, Room, Navigation, and DataStore.
@@ -26,6 +22,12 @@ Retry: Convert Gradle to Kotlin DSL (build.gradle.kts).
 Project Setup & Architecture Guidance
 Assisted in scaffolding the Android project with Kotlin, Jetpack Compose, MVVM, Room, and DataStore.
 Generated modular package structure: data/model, data/local, data/repository, vm, ui/screens, ui/components, and ui/theme.
+
+
+![1000436765](https://github.com/user-attachments/assets/95385a34-acb8-442f-a887-60c247de6984)
+![1000436763](https://github.com/user-attachments/assets/9fadac8c-933f-4345-ab71-07806000238d)
+![1000436766](https://github.com/user-attachments/assets/63351404-8096-4d12-b23b-9698ecd0e338)
+![1000436764](https://github.com/user-attachments/assets/74a729ed-943d-414f-828b-89b5eb97905c)
 
 Reports & Export
 Prompt: “Wire CSV/PDF export to Android Share intent.”
