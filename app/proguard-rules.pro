@@ -19,3 +19,24 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# Keep annotations (Room uses reflection on them)
+-keepattributes *Annotation*
+
+# Keep Room schema models
+-keep class androidx.room.** { *; }
+-dontwarn androidx.room.**
+
+# Keep your Room entities, DAO, and Database
+-keep class com.example.smartexpensetracker.data.local.** { *; }
+
+# Kotlin coroutines / Flow
+-dontwarn kotlinx.coroutines.**
+-keep class kotlinx.coroutines.** { *; }
+
+# ViewModel + Lifecycle
+-keep class androidx.lifecycle.** { *; }
+-dontwarn androidx.lifecycle.**
+
+# Keep your ViewModels (instantiated via reflection)
+-keep class com.example.smartexpensetracker.ui.vm.** { *; }
