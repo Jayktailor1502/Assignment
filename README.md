@@ -3,6 +3,8 @@ Smart Daily Expense Tracker
 A full-featured Android app built with Kotlin, Jetpack Compose, MVVM, Room, Navigation, and DataStore.
 This app helps small business owners digitize their daily expenses with features like expense entry, categorized lists, reports with charts, CSV/PDF export (with share), and theme switching (light/dark).
 
+APK LINK - https://limewire.com/d/WgDK4#jxJooWmS8L
+
 AI Usage Summary 🤖
 
 This project was developed with assistance from ChatGPT (OpenAI GPT-5).
